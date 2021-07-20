@@ -1,0 +1,86 @@
+/*TEXTOS*/
+/*ARREGLAR FOOTER INSTRUCTORES*/
+.nosotros{
+	color: #74A57F;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-transform: uppercase;
+	margin-left: 20px;
+	padding-top: 3rem;
+}
+#nosotros--carousel{
+	@extend .nosotros;
+	
+}
+.landingTitulos{
+	color: yellow;
+	font-size: 25px;
+	text-align: center;
+
+}
+#frase{
+	font-style: italic;
+	font-size: 30px;
+	color: darkgoldenrod;
+	text-align: left;
+	margin-right: 0px;
+}
+
+.active{
+	color: darkgoldenrod	;
+}
+
+p{	
+color: #9ECE9A; 
+font-family: 'Mukta', sans-serif;
+font-size: 20px;
+line-height: 1.6;
+margin-top: 10px;
+margin-left: 25px;
+margin-bottom: 20px;
+}
+
+.nuevoFooter a{
+	text-decoration: none;
+	color: goldenrod;
+	font-family: 'Noto Sans JP', sans-serif;
+}
+
+#nosotros--carousel a{
+	text-decoration: none;
+	background-color: black;
+	color: darkgoldenrod;
+
+}
+
+#nosotros--carousel p{
+	@extend p;
+}
+
+.subtitulos{
+	font-family: 'Noto Sans JP', sans-serif;
+	color: #74A57F;
+	margin-left: 10px;
+	padding: 10px;
+}
+
+#tituloDanes{
+	color: goldenrod;
+	font-family: 'Mukta', sans-serif ;
+	font-size: 40px;
+	font-weight: 50;
+	text-align: center;
+	text-transform: uppercase;
+}
+#tituloDanesII{
+	color: goldenrod;
+	font-family: 'Mukta', sans-serif;
+	font-size: 30px;
+	font-weight: 40;
+	text-align: center;
+}
+
+#cinturonNegro{
+	background-color: black;
+	color: goldenrod;
+	text-align: center; /* Recordar que página de instructores se va a ver  completamente diferente.*/
+}

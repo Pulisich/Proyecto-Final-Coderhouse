@@ -1,0 +1,398 @@
+@charset "UTF-8";
+/*GENERAL*/
+* {
+  margin: 0;
+  padding: 0; }
+
+.body {
+  width: 100%;
+  height: 100%;
+  background-color: #074F57;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 25rem; }
+
+.card-body {
+  background-color: #074F57; }
+
+/*BANNERS*/
+.banner {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+  background: radial-gradient(gray, black);
+  color: goldenrod;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px;
+  margin-bottom: 10px;
+  border: solid;
+  border-color: black; }
+
+#bannerEnDanes {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+  background: radial-gradient(goldenrod, black);
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  padding: 20px; }
+
+/*FOOTERS*/
+#footer {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+  height: 8rem;
+  background: radial-gradient(gray, black);
+  color: goldenrod;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  align-content: center;
+  padding-top: 10em; }
+
+#footer a {
+  text-decoration: none;
+  color: darkgoldenrod; }
+
+#footerEnDanes {
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px;
+  background: radial-gradient(goldenrod, black);
+  color: black;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly; }
+
+.footerEnDanes a {
+  text-decoration: none;
+  color: black;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-size: 30px; }
+
+.nuevoFooter, .nuevoFooterDanes {
+  font-size: 25px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-flow: row;
+  align-items: space-evenly;
+  background-color: black;
+  color: darkgoldenrod;
+  padding-top: 10px;
+  padding-bottom: 10px; }
+
+.nuevoFooterDanes {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background: white; }
+
+/*TEXTOS*/
+/*ARREGLAR FOOTER INSTRUCTORES*/
+.nosotros, #nosotros--carousel {
+  color: #74A57F;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-transform: uppercase;
+  margin-left: 20px;
+  padding-top: 3rem; }
+
+.landingTitulos {
+  color: yellow;
+  font-size: 25px;
+  text-align: center; }
+
+#frase {
+  font-style: italic;
+  font-size: 30px;
+  color: darkgoldenrod;
+  text-align: left;
+  margin-right: 0px; }
+
+.active {
+  color: darkgoldenrod; }
+
+p, #nosotros--carousel p {
+  color: #9ECE9A;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+  line-height: 1.6;
+  margin-top: 10px;
+  margin-left: 25px;
+  margin-bottom: 20px; }
+
+.nuevoFooter a, .nuevoFooterDanes a {
+  text-decoration: none;
+  color: goldenrod;
+  font-family: 'Noto Sans JP', sans-serif; }
+
+#nosotros--carousel a {
+  text-decoration: none;
+  background-color: black;
+  color: darkgoldenrod; }
+
+.subtitulos {
+  font-family: 'Noto Sans JP', sans-serif;
+  color: #74A57F;
+  margin-left: 10px;
+  padding: 10px; }
+
+#tituloDanes {
+  color: goldenrod;
+  font-family: 'Mukta', sans-serif;
+  font-size: 40px;
+  font-weight: 50;
+  text-align: center;
+  text-transform: uppercase; }
+
+#tituloDanesII {
+  color: goldenrod;
+  font-family: 'Mukta', sans-serif;
+  font-size: 30px;
+  font-weight: 40;
+  text-align: center; }
+
+#cinturonNegro {
+  background-color: black;
+  color: goldenrod;
+  text-align: center;
+  /* Recordar que página de instructores se va a ver  completamente diferente.*/ }
+
+/*LISTAS*/
+.oLista {
+  color: #9ECE9A;
+  font-weight: 200;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  margin-left: 25px; }
+
+ul li {
+  color: #9ECE9A;
+  font-weight: 200;
+  font-family: 'Noto Sans JP', sans-serif;
+  text-align: left;
+  text-decoration: none;
+  margin-left: 25px; }
+
+/*BOTONES*/
+.iconoFacebook {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  line-height: 50px;
+  bottom: 100px;
+  right: 30px;
+  background: black;
+  color: #fff;
+  border-radius: 25px;
+  text-align: center;
+  font-size: 20px;
+  box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+  z-index: 100; }
+
+.iconoFacebook a {
+  text-align: center;
+  color: whitesmoke;
+  font-size: 20px; }
+
+.iconoFacebook a:hover {
+  background-color: darkgoldenrod;
+  transform: scale(1.5);
+  transition: 5seg; }
+
+.botones {
+  background-color: #074F57;
+  text-align: center;
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  grid-area: menu; }
+
+#botonesDanes {
+  color: darkgoldenrod;
+  background-color: black;
+  text-decoration: none;
+  text-align: center;
+  padding: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: flex-start; }
+
+.botonComun {
+  background-color: #077187;
+  border: none;
+  color: black;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-family: 'Mukta', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  justify-content: space-evenly;
+  border: outset;
+  border-color: #077187; }
+
+#instructores {
+  background: #0F0607;
+  border: none;
+  color: darkgoldenrod;
+  /*No me toma el color ¿Por qué*/
+  padding: 15px 32px;
+  text-decoration: none;
+  /*Sacar subrayado*/
+  text-align: center;
+  text-transform: uppercase;
+  font-family: 'Mukta', sans-serif;
+  font-size: 25px;
+  display: inline-block;
+  border: outset;
+  border-color: darkgoldenrod; }
+
+/*TABLAS*/
+.tabla {
+  background-color: #074F57;
+  font-family: 'Mukta', sans-serif;
+  width: 80vh;
+  height: 50vh;
+  color: #9ECE9A;
+  font-size: 20px;
+  border: 2px solid goldenrod;
+  padding: 8px;
+  border-spacing: 10px; }
+
+/*La grilla se aplica a la tabla*/
+#grilla {
+  display: grid;
+  grid-template-areas: "header"	 "filaUno " "filaDos" "filaTres" "filaCuatro";
+  grid-template-columns: 1, 50% fr;
+  grid-template-rows: 20% 20% 20% 20% 20%;
+  grid-gap: 0;
+  justify-items: stretch;
+  align-items: start;
+  justify-content: stretch;
+  align-content: start; }
+
+/*FORMULARIOS*/
+form input, select, textarea {
+  margin-top: 10px;
+  margin-left: 25px;
+  padding: 2px; }
+
+#checkBoxLegales label {
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+  font-weight: 40;
+  color: darkgoldenrod;
+  text-align: center;
+  text-transform: none; }
+
+#checkBoxMedica {
+  font-family: 'Mukta', sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: darkgoldenrod;
+  text-transform: uppercase; }
+
+label {
+  text-transform: uppercase;
+  font-family: 'Mukta', sans-serif;
+  font-size: 20px;
+  font-weight: 40;
+  color: #9ECE9A; }
+
+/*MEDIA QUERIES*/
+@media (max-width: 768px) {
+  .iconoFacebook {
+    position: fixed;
+    display: none;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    bottom: 100px;
+    right: 30px;
+    background: black;
+    color: #fff;
+    border-radius: 25px;
+    text-align: center;
+    font-size: 20px;
+    box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
+    z-index: 100; }
+  .iconoFacebook a {
+    text-align: center;
+    padding: 6px;
+    color: whitesmoke;
+    font-size: 20px; }
+  .iconoFacebook a:hover {
+    background-color: darkgoldenrod;
+    transform: scale(1.5);
+    transition: 5seg; }
+  .nuevoFooter, .nuevoFooterDanes {
+    font-size: 25px;
+    display: none;
+    flex-wrap: wrap;
+    flex-flow: row;
+    align-items: space-evenly;
+    background-color: black;
+    color: darkgoldenrod; }
+  .nuevoFooterDanes {
+    display: none;
+    bottom: 0;
+    width: 100%;
+    height: 60px;
+    background: white; }
+    .nuevoFooterDanes .banner {
+      display: none; }
+    .nuevoFooterDanes .calecita {
+      width: 100%;
+      height: 100%; }
+  #footer {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 30px;
+    height: 8rem;
+    background: radial-gradient(gray, black);
+    color: goldenrod;
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: none;
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    align-content: center; } }
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid black;
+  background-image: none;
+  background-color: black;
+  padding-bottom: auto; }
+
+.carousel-control-next-icon:after {
+  content: '>';
+  font-size: 55px;
+  color: goldenrod;
+  background-color: black; }
+
+.carousel-control-prev-icon:after {
+  content: '<';
+  font-size: 55px;
+  color: goldenrod; }

@@ -1,0 +1,29 @@
+/*TABLAS*/
+.tabla{
+	background-color: #074F57 ;
+	font-family: 'Mukta', sans-serif;
+	width: 80vh;
+	height: 50vh;
+	color: #9ECE9A ;
+	font-size: 20px;
+	border: 2px solid goldenrod;
+	padding: 8px;
+	border-spacing: 10px;
+}
+/*La grilla se aplica a la tabla*/
+#grilla {
+	display: grid;
+	grid-template-areas: 
+	"header"	
+	"filaUno "
+	"filaDos"
+	"filaTres"
+	"filaCuatro";
+	grid-template-columns: 1, 50%fr;
+	grid-template-rows: 20% 20% 20% 20% 20%;
+	grid-gap: 0;
+	justify-items: stretch;
+	align-items: start;
+	justify-content: stretch;
+	align-content: start;
+}
