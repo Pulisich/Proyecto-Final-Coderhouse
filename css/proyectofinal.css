@@ -99,7 +99,6 @@
   padding-top: 0px; }
 
 /*TEXTOS*/
-/*ARREGLAR FOOTER INSTRUCTORES*/
 .nosotros, #nosotros--carousel {
   color: #74A57F;
   font-family: 'Noto Sans JP', sans-serif;
@@ -277,11 +276,7 @@ ul li {
 /*La grilla se aplica a la tabla*/
 #grilla {
   display: grid;
-  grid-template-areas: "header"	
- "filaUno "
- "filaDos"
- "filaTres"
- "filaCuatro";
+  grid-template-areas: "header"	 "filaUno " "filaDos" "filaTres" "filaCuatro";
   grid-template-columns: 1, 50% fr;
   grid-template-rows: 20% 20% 20% 20% 20%;
   grid-gap: 0;
