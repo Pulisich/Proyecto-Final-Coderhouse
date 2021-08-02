@@ -28,7 +28,9 @@
 .active{
 	color: darkgoldenrod	;
 }
-
+h5{
+	@extend.active
+}
 p{	
 color: #9ECE9A; 
 font-family: 'Mukta', sans-serif;
@@ -37,6 +39,15 @@ line-height: 1.6;
 margin-top: 10px;
 margin-left: 25px;
 margin-bottom: 20px;
+}
+
+
+.linksEstudiantes{
+	text-decoration: none;
+	color: goldenrod;
+	font-family: 'Noto Sans JP', sans-serif;
+	font-weight: bold;
+	
 }
 
 .nuevoFooter a{

@@ -118,7 +118,7 @@
   text-align: left;
   margin-right: 0px; }
 
-.active {
+.active, h5 {
   color: darkgoldenrod; }
 
 p, #nosotros--carousel p {
@@ -129,6 +129,12 @@ p, #nosotros--carousel p {
   margin-top: 10px;
   margin-left: 25px;
   margin-bottom: 20px; }
+
+.linksEstudiantes {
+  text-decoration: none;
+  color: goldenrod;
+  font-family: 'Noto Sans JP', sans-serif;
+  font-weight: bold; }
 
 .nuevoFooter a, .nuevoFooterDanes a {
   text-decoration: none;
@@ -198,6 +204,10 @@ ul li {
   font-size: 20px;
   box-shadow: 0px 1px 10px rgba(0, 0, 0, 0.3);
   z-index: 100; }
+
+.navMain, .navEstudiantes {
+  background-color: blue;
+  height: 5em; }
 
 .iconoFacebook a {
   text-align: center;
@@ -396,3 +406,25 @@ label {
   content: '<';
   font-size: 55px;
   color: goldenrod; }
+
+/*IMÁGENES*/
+.boxImg {
+  width: 100%;
+  display: flex;
+  align-content: center; }
+
+.informacionImg, .estudiantesImg, .instructoresImg, .espaciosImg {
+  display: block;
+  max-width: 200%;
+  max-height: 100%;
+  transition: 5s; }
+
+.informacionImg:hover, .estudiantesImg:hover, .instructoresImg:hover, .espaciosImg:hover {
+  transform: scale(1.5); }
+  .informacionImg:hover .overlay, .estudiantesImg:hover .overlay, .instructoresImg:hover .overlay, .espaciosImg:hover .overlay {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background-color: #000;
+    opacity: 0.5;
+    border-radius: 30px; }

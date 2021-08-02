@@ -16,6 +16,16 @@
   z-index: 100;
 }
 
+.navMain{
+	background-color: blue;
+	height: 5em;
+}
+
+.navEstudiantes{
+	@extend.navMain
+	
+}
+
 .iconoFacebook a {
   text-align: center;
   color: whitesmoke;
