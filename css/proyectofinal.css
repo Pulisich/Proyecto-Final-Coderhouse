@@ -12,14 +12,19 @@
   background-repeat: no-repeat;
   background-size: 25rem; }
 
+.bodyLanding {
+  width: 100%;
+  height: 100%; }
+
 .card-body {
   background-color: #074F57; }
 
 /*BANNERS*/
 .banner {
+  height: 5%;
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 30px;
-  background: radial-gradient(gray, black);
+  /*background:  radial-gradient(gray, black);*/
   color: goldenrod;
   text-align: center;
   text-transform: uppercase;
@@ -415,16 +420,28 @@ label {
 
 .informacionImg, .estudiantesImg, .instructoresImg, .espaciosImg {
   display: block;
-  max-width: 200%;
+  max-width: 100%;
   max-height: 100%;
-  transition: 5s; }
+  transition: 2s; }
 
 .informacionImg:hover, .estudiantesImg:hover, .instructoresImg:hover, .espaciosImg:hover {
-  transform: scale(1.5); }
-  .informacionImg:hover .overlay, .estudiantesImg:hover .overlay, .instructoresImg:hover .overlay, .espaciosImg:hover .overlay {
-    width: 100%;
-    height: 100%;
+  transform: scale(1.5);
+  opacity: 1; }
+
+/*.informacionImg:hover.overlay{
+     
+        opacity: 1;
+      
+}
+.overlay {
     position: absolute;
-    background-color: #000;
-    opacity: 0.5;
-    border-radius: 30px; }
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    transition: .5s ease;
+    background-color: #008CBA;
+  }*/
