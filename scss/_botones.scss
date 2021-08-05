@@ -17,6 +17,7 @@
 }
 
 .navMain{
+	padding-top: 2rem;
 	background-color: blue;
 	height: 5em;
 }
@@ -41,7 +42,7 @@
 .botones{
 	background-color: #074F57;
 	text-align: center; 
-	padding: 20px;
+	padding: none;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: wrap;

@@ -18,23 +18,7 @@ transition: 2s;
     transform: scale(1.5);
     opacity: 1;
 }
-/*.informacionImg:hover.overlay{
-     
-        opacity: 1;
-      
-}
-.overlay {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    height: 100%;
-    width: 100%;
-    opacity: 0;
-    transition: .5s ease;
-    background-color: #008CBA;
-  }*/
+
 
 .estudiantesImg{
    @extend.informacionImg;
@@ -46,4 +30,8 @@ transition: 2s;
 
 .espaciosImg{
     @extend.informacionImg;
+}
+
+.imagenChoi{
+    align-content: center;
 }
