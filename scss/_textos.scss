@@ -3,7 +3,7 @@
 .nosotros{
 	color: #74A57F;
 	font-family: 'Noto Sans JP', sans-serif;
-	text-transform: uppercase;
+	text-transform: none;
 	margin-left: 20px;
 	padding-top: 3rem;
 }
@@ -32,7 +32,7 @@ h5{
 	@extend.active
 }
 p{	
-color: #9ECE9A; 
+color: #F6F7EB; 
 font-family: 'Mukta', sans-serif;
 font-size: 20px;
 line-height: 1.6;
@@ -41,7 +41,9 @@ margin-left: 25px;
 margin-bottom: 20px;
 }
 
-
+a{
+	text-decoration: none;
+}
 .linksEstudiantes{
 	text-decoration: none;
 	color: goldenrod;
@@ -50,11 +52,6 @@ margin-bottom: 20px;
 	
 }
 
-.nuevoFooter a{
-	text-decoration: none;
-	color: goldenrod;
-	font-family: 'Noto Sans JP', sans-serif;
-}
 
 #nosotros--carousel a{
 	text-decoration: none;
@@ -72,6 +69,7 @@ margin-bottom: 20px;
 	color: #74A57F;
 	margin-left: 10px;
 	padding: 10px;
+	text-decoration: none;
 }
 
 #tituloDanes{

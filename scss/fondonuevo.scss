@@ -1,0 +1,22 @@
+
+.fondoNuevo{
+    width: 100rem;
+    height: 100rem;
+    background: radial-gradient(#F6F7EB, #071E22);
+    animation-name: un_efecto;
+    background-repeat: no-repeat;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in;
+    animation-duration: 10s;
+    animation-delay: 0s;
+ }
+ @keyframes un_efecto {
+    0%{ width: 100%; }
+    25%{ width: 100%; }
+    50%{ width: 100%;
+      background:radial-gradient(#071E22, #F6F7EB); }
+    75%{ width: 100%;}
+    100%{ width: 100%;
+      background: radial-gradient(#F6F7EB,#071E22);}
+ }
+ 

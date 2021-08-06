@@ -43,27 +43,6 @@
   padding: 20px; }
 
 /*FOOTERS*/
-#footer {
-  font-family: 'Noto Sans JP', sans-serif;
-  font-size: 30px;
-  height: 8rem;
-  background: radial-gradient(gray, black);
-  color: goldenrod;
-  text-align: center;
-  text-transform: uppercase;
-  text-decoration: none;
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  align-content: center;
-  padding-top: 10em; }
-
-#footer a {
-  text-decoration: none;
-  color: darkgoldenrod; }
-
 #footerEnDanes {
   font-family: 'Noto Sans JP', sans-serif;
   font-size: 30px;
@@ -90,24 +69,29 @@
   flex-wrap: wrap;
   flex-flow: row;
   align-items: space-evenly;
-  background-color: black;
-  color: darkgoldenrod;
+  background-color: #071E22;
+  color: #247BA0;
   padding-top: 10px;
   padding-bottom: 10px; }
+
+.nuevoFooter a, .nuevoFooterDanes a {
+  text-decoration: none;
+  color: #247BA0;
+  font-family: 'Noto Sans JP', sans-serif; }
 
 .nuevoFooterDanes {
   position: absolute;
   bottom: 0;
   width: 100%;
   height: 60px;
-  background: white;
+  background: #F6F7EB;
   padding-top: 0px; }
 
 /*TEXTOS*/
 .nosotros, #nosotros--carousel {
   color: #74A57F;
   font-family: 'Noto Sans JP', sans-serif;
-  text-transform: uppercase;
+  text-transform: none;
   margin-left: 20px;
   padding-top: 3rem; }
 
@@ -127,7 +111,7 @@
   color: darkgoldenrod; }
 
 p, #nosotros--carousel p {
-  color: #9ECE9A;
+  color: #F6F7EB;
   font-family: 'Mukta', sans-serif;
   font-size: 20px;
   line-height: 1.6;
@@ -135,16 +119,14 @@ p, #nosotros--carousel p {
   margin-left: 25px;
   margin-bottom: 20px; }
 
+a {
+  text-decoration: none; }
+
 .linksEstudiantes {
   text-decoration: none;
   color: goldenrod;
   font-family: 'Noto Sans JP', sans-serif;
   font-weight: bold; }
-
-.nuevoFooter a, .nuevoFooterDanes a {
-  text-decoration: none;
-  color: goldenrod;
-  font-family: 'Noto Sans JP', sans-serif; }
 
 #nosotros--carousel a {
   text-decoration: none;
@@ -155,7 +137,8 @@ p, #nosotros--carousel p {
   font-family: 'Noto Sans JP', sans-serif;
   color: #74A57F;
   margin-left: 10px;
-  padding: 10px; }
+  padding: 10px;
+  text-decoration: none; }
 
 #tituloDanes {
   color: goldenrod;
@@ -311,6 +294,9 @@ ul li {
   border: outset;
   border-color: darkgoldenrod; }
 
+.card-header {
+  text-decoration: none; }
+
 /*TABLAS*/
 .tabla {
   background-color: #074F57;
@@ -465,3 +451,28 @@ label {
 
 .imagenChoi {
   align-content: center; }
+
+.fondoNuevo {
+  width: 100rem;
+  height: 100rem;
+  background: radial-gradient(#F6F7EB, #071E22);
+  animation-name: un_efecto;
+  background-repeat: no-repeat;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in;
+  animation-duration: 10s;
+  animation-delay: 0s; }
+
+@keyframes un_efecto {
+  0% {
+    width: 100%; }
+  25% {
+    width: 100%; }
+  50% {
+    width: 100%;
+    background: radial-gradient(#071E22, #F6F7EB); }
+  75% {
+    width: 100%; }
+  100% {
+    width: 100%;
+    background: radial-gradient(#F6F7EB, #071E22); } }
