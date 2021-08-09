@@ -72,6 +72,10 @@ a{
 	text-decoration: none;
 }
 
+.underTitulos{
+	@extend.subtitulos
+}
+
 #tituloDanes{
 	color: goldenrod;
 	font-family: 'Mukta', sans-serif ;
