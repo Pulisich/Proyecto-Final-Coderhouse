@@ -7,6 +7,25 @@
 	margin-left: 20px;
 	padding-top: 3rem;
 }
+
+.nosotrosLanding{
+	color: #74A57F;
+	width: 100%;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	text-transform: uppercase;
+	background-color: #082c33;
+	padding-top:3rem;
+	padding-bottom: 10px;
+}
+
+#textoLanding{
+	background-color: #0f444e;
+	font-family: 'Noto Sans JP', sans-serif;
+	text-align: center;
+	padding-bottom: 25px;
+
+}
 #nosotros--carousel{
 	@extend .nosotros;
 	
@@ -83,6 +102,7 @@ a{
 	font-weight: 50;
 	text-align: center;
 	text-transform: uppercase;
+	padding-top: 3rem;
 }
 #tituloDanesII{
 	color: goldenrod;
@@ -90,13 +110,10 @@ a{
 	font-size: 30px;
 	font-weight: 40;
 	text-align: center;
+	padding-top: 3rem;
 }
 
-#cinturonNegro{
-	background-color: black;
-	color: goldenrod;
-	text-align: center; /* Recordar que página de instructores se va a ver  completamente diferente.*/
-}
+
 
 .iframeMain{
 	width:100% ;
@@ -108,37 +125,47 @@ a{
 }
 
 .cintoBlanco{
-	color: white;
+	background-color: white;
+	color: black;
+	
 }
 
 .cintoAmarillo{
-	color:yellow
-}
-
-.cintoVerde{
-	color: green;
-}
-
-.cintoAzul{
-	color: blue;
-}
-
-.cintoRojo{
-	color: red;
-}
-
-.cintoNegro{
+	background-color:yellow;
 	color: black;
 }
 
+.cintoVerde{
+	background-color: green;
+	color: black;
+}
+
+.cintoAzul{
+	background-color: blue;
+	color: black;
+}
+
+.cintoRojo{
+	background-color: red;
+	color: black;
+}
+
+.cintoNegro{
+	background-color: black;
+	color: white;
+}
+
 .cintoNegroII{
-	color:brown
+	background-color:brown;
+	color: black;
 }
 
 .cintoNegroIII{
-	color:silver
+	background-color:silver;
+	color: black;
 }
 
 .sasonim{
-	color: gold;
+	background-color: gold;
+	color: black;
 }

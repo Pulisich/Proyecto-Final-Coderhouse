@@ -85,11 +85,61 @@
 			    <input type="checkbox" name="Acepto">
 			    <label>Acepto toda responsabilidad sobre accidentes producidos durante el ejercicio y no demandaré a la escuela por la ocurrencia de los mismos</label>
 				<br>
-				<p>Firma: Nombre, Apellido, D.N.I.</p> <!--Cambiar por tres textareas distintas para cada cosa-->
+				<p>Firma: Nombre, Apellido, D.N.I.</p> 
 					<textarea name="firma"></textarea>
 				<br>
-				<input type="submit" name="enviar" value="ENVIAR">
-				<input type="submit" name="descargar" value="DESCARGAR">
+				
+				<div class="container">	
+						
+					<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal2">
+						LIMPIAR  </button>	
+
+						<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel2">Ooops...Algo salió mal</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+									Por el momento ese botón no funciona, vas a tener que borrar a mano.
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+								
+								</div>
+							</div>
+							</div>
+						</div>
+															
+					<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal">
+					ENVIAR  </button>
+					
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">¡Recibido!</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							</div>
+							<div class="modal-body">
+							Circular legal enviada, muchas gracias.
+							</div>
+							<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+							
+							</div>
+						</div>
+						</div>
+					</div>
+
+				</div>
+
 			</form>
 	</div>
 
