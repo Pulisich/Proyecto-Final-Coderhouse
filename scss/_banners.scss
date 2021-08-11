@@ -1,18 +1,17 @@
 /*BANNERS*/
 
 .banner{
-	height: 5%;
+	height: auto;
+	width: 100%;
 	font-family: 'Noto Sans JP', sans-serif;
 	font-size: 30px;
-	
-	/*background:  radial-gradient(gray, black);*/
+	background-color: #FFFFCF;
 	color: goldenrod;
 	text-align: center;
 	text-transform: uppercase;
 	padding: 20px;
-	margin-bottom: 10px;
-	border: solid;
-	border-color: black;
+	margin-bottom:1px;
+	
 }
 
 #bannerEnDanes{

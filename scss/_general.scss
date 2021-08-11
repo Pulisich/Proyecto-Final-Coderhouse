@@ -17,13 +17,27 @@
 .bodyLanding{
 	width: 100%;
 	height: 100%;
+	background-color: #023f4b;
 	
 }
-
+.containerLanding{
+	width: 100%;
+}
 .card-body{
 	background-color: #074F57;
 }
 
+/* Body página instructores, recordatorio que se ve distinto*/
+.cinturonNegro{
+	width: 100%;
+	height: 100%;
+	background-position: center;
+	background-repeat: no-repeat;
+	background-size: 25rem;
+	background-color: black;
+	color: goldenrod;
+	text-align: center; 
+}
 
 
 
