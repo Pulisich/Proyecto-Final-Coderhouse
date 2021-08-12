@@ -306,7 +306,10 @@ ul li {
   flex-direction: row;
   flex-wrap: wrap;
   justify-content: flex-start; }
-
+.contenedorBoton{
+  display: inline;
+  align-content: left;
+}
 .botonComun {
   background-color: #077187;
   border: none;
@@ -388,7 +391,8 @@ form input, select, textarea {
   padding: 2px; }
 
 .formContacto {
-  padding-bottom: 20 px; }
+  padding-bottom: 20 px;
+  padding-left: 100px; }
 
 #checkBoxLegales label {
   font-family: 'Mukta', sans-serif;
