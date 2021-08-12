@@ -234,27 +234,81 @@
 				<label id="checkBoxMedica">He leído toda la forma y he contestado de forma honesta en mi capacidad como practicante o responsable de un practicante.</label> <!-- La fuente no se cambia, averiguar cómo.-->
 				<br>
 				<br>
-				<input type="submit" name="enviar" value="ENVIAR">
-				<input type="reset" name="LIMPIAR">
-				<input type="submit" name="DESCARGAR">
+				
+
+				<div class="container">	
+						
+					<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal2">
+						DESCARGAR  </button>	
+
+						<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+							<div class="modal-dialog">
+							<div class="modal-content">
+								<div class="modal-header">
+								<h5 class="modal-title" id="exampleModalLabel2">Ooops...Algo salió mal</h5>
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+									<span aria-hidden="true">&times;</span>
+								</button>
+								</div>
+								<div class="modal-body">
+									Por el momento ese botón no funciona.
+								</div>
+								<div class="modal-footer">
+								<button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+								
+								</div>
+							</div>
+							</div>
+						</div>
+															
+					<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal">
+					ENVIAR  </button>
+					
+					<!-- Modal -->
+					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						<div class="modal-dialog">
+						<div class="modal-content">
+							<div class="modal-header">
+							<h5 class="modal-title" id="exampleModalLabel">¡Recibido!</h5>
+							<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								<span aria-hidden="true">&times;</span>
+							</button>
+							</div>
+							<div class="modal-body">
+							Ficha médica enviada, muchas gracias.
+							</div>
+							<div class="modal-footer">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+							
+							</div>
+						</div>
+						</div>
+					</div>
+
+				</div>
 		</form>
 	
 	</div>
 
 	<br>
 	
-	<div>
+	<div class="footerContactos">
+		<footer>
+		<nav class=" nuevoFooter">
+		
+				<a class="nav-link active nuevoFooter"  href="#">Arriba</a>
+				<a class="nav-link" href="contacto.html" >Contacto</a>
+				<a class="nav-link" href="https://www.facebook.com/C%C3%B3rdoba-TaekwonDo-ITF-1788817928052486" target="blank">Facebook</a>
+				<a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Instagram</a><!--Inhabilitado hasta que hagamos una o salga algo.-->
+				
+		
+			</nav>
 
-	    <nav class="nav nuevoFooter">
-
-	        <a class="nav-link active nuevoFooter"  href="#">Nuestras redes:</a>
-	        <a class="nav-link" href="contacto.html" >Contacto</a>
-	        <a class="nav-link" href="https://www.facebook.com/C%C3%B3rdoba-TaekwonDo-ITF-1788817928052486" target="blank">Facebook</a>
-	        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Instagram</a><!--NO HAY TODAVÍA-->
-	 
-	    </nav>
-
-  	</div>	
+			<div class="nuevoFooter"> 
+				<p>Developed by <a href="https://github.com/Pulisich" target="_blank">PULISICH</a></p>
+			</div>
+		</footer>
+	</div>
 
   	<!-- Optional JavaScript; choose one of the two! -->
 
