@@ -297,19 +297,28 @@ ul li {
   grid-area: menu; }
 
 #botonesDanes {
+  font-family: 'Mukta', sans-serif;
+  font-size: 25px;
   color: darkgoldenrod;
   background-color: black;
   text-decoration: none;
   text-align: center;
-  padding: 10px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: wrap;
-  justify-content: flex-start; }
-.contenedorBoton{
-  display: inline;
-  align-content: left;
+  text-transform:uppercase;
+  padding-top: 10px;
+  padding-left: 25px;
+  display: inline-block;
+  justify-content: center; 
+  border: none;
 }
+
+.contrasenia{
+  padding-bottom: 50px;
+}
+.contenedorBoton{
+  padding-top: 10px;
+}
+
+
 .botonComun {
   background-color: #077187;
   border: none;

@@ -76,68 +76,102 @@
 		<div>
 			<form action="recibe.html" method="POST" enctype="multipart/form-data"> 
 
-				<p>Usuario:</p>
+				<div class="contrasenia">
+				
+					<p>Usuario:</p>
+				
 					<input type="text" name="Usuario"> 
-				<br>
-				<p>Contraseña:</p>		
+				
+				
+					<p>Contraseña:</p>		
+				
 					<input type="password" name="Contraseña"> 
 
-					<div>
+				</div>	
+					<div class="coL text-center">
 					<!-- Button trigger modal -->
 
-					<button type="button" class="btn btn-primary" id="botonesDanes" data-toggle="modal" data-target="#exampleModal">
+					<div class="">
+						
+						<button type="button" class="btn btn-primary contenedorBotonDanes " id="botonesDanes" data-toggle="modal" data-target="#exampleModal">
 
-						Ingresar
+						
+							Ingresar
 
-					</button>
+					
+						</button>
   
-
+					</div>
 					<!-- Modal -->
+					<div >
+					
+						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
 
-					<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						
+							<div class="modal-dialog">
 
-						<div class="modal-dialog">
+							
+								<div class="modal-content cinturonNegro">
 
-							<div class="modal-content">
+							
+									<div class="modal-header">
 
-								<div class="modal-header">
+								
+										<h5 class="modal-title" id="exampleModalLabel">Alto ahí pequeño saltamontes</h5>
 
-									<h5 class="modal-title" id="exampleModalLabel">Alto ahí pequeño saltamontes</h5>
 
-									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+								
+										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
 
-										<span aria-hidden="true">&times;</span>
+									
+											<span aria-hidden="true">&times;</span>
 
-									</button>
+									
+										</button>
 
+								
+									</div>
+
+								
+									<div class="modal-body">
+
+									
+										¿Cómo pretendés loguearte si ni siquiera hemos configurado usuarios para ésta sección?
+
+
+								
+									</div>
+
+								
+									<div class="modal-footer">
+
+										<button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+
+									</div>
+
+							
 								</div>
 
-								<div class="modal-body">
-
-									Todavía no tenemos el conocimiento para construir ésta sección, más adelante, y cuando te registres como instructor, serás bienvenido.
-
-								</div>
-
-								<div class="modal-footer">
-
-									<button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-
-									<button type="button" class="btn btn-primary">Save changes</button>
-
-								</div>
-
+						
 							</div>
 
+					
 						</div>
-
+				
 					</div>
-
+				
 				</div>
+			
 			</form>
+		
 		</div>
 	
 		<div>
-			<p><a href="contacto.html">Deshonrosamente declaro haber olvidado mi contraseña.</a></p>
+			<p class="underTitulos">
+				<a href="contacto.html">
+					Deshonrosamente declaro haber olvidado mi contraseña.
+				</a>
+			</p>
 		</div>
 
 		<div class="footerDanes">
