@@ -16,8 +16,12 @@ form input, select, textarea{
 	color: darkgoldenrod;
 	text-align: center;
 	text-transform: none;
+	padding: 0;
 }
 
+.custom-control{
+	padding-left: 5%;
+}
 #checkBoxMedica{
 	font-family: 'Mukta', sans-serif;
 	font-size: 15px;

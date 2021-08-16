@@ -396,7 +396,11 @@ form input, select, textarea {
   font-weight: 40;
   color: darkgoldenrod;
   text-align: center;
-  text-transform: none; }
+  text-transform: none;
+  padding: 0; }
+
+.custom-control {
+  padding-left: 5%; }
 
 #checkBoxMedica {
   font-family: 'Mukta', sans-serif;

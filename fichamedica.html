@@ -26,7 +26,7 @@
       <nav class="navbar navbar-expand-lg navbar-light bg-light">
         
         <nav class="navbar fixed-top navbar-light bg-light">
-           <a class="navbar-brand" href="#">MENÚ</a>
+           <a class="navbar-brand" href="index.html">MENÚ</a>
         
            
            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -37,7 +37,7 @@
                  
                   <ul class="navbar-nav">
                       <li class="nav-item">
-                        <a class="nav-link" href="index.html">Home<span class="sr-only">(current)</span></a>
+                        <a class="nav-link" href="info.html">Home<span class="sr-only">(current)</span></a>
                       </li>
                       <li class="nav-item">
                         <a class="nav-link" href="estudiantes.html">Estudiantes</a>
@@ -60,11 +60,82 @@
 				<button class="iconoFacebook"><a href="https://www.facebook.com/C%C3%B3rdoba-TaekwonDo-ITF-1788817928052486" target="blank" class="iconoFacebook"><i class="fa fa-facebook"></i></a></button>
 		</div>
 
-	
+		<div>
+			<h1 class="nosotros">Ficha médica para practicantes.</h1>
+		</div>
 		
-		<h1 class="nosotros">Ficha médica para practicantes.</h1>
+		<div class="container">
+			<form class="needs-validation" novalidate>
+				<div class="form-row">
+				  <div class="col-md-6 mb-3">
+					<label for="validationTooltip01">Nombre</label>
+					<input type="text" class="form-control" id="validationTooltip01" value="Mark" required>
+					<div class="valid-tooltip">
+					  ¡Bien!
+					</div>
+				  </div>
+				  <div class="col-md-6 mb-3">
+					<label for="validationTooltip02">Apellido</label>
+					<input type="text" class="form-control" id="validationTooltip02" value="Otto" required>
+					<div class="valid-tooltip">
+					  ¡Bien!
+					</div>
+				  </div>
+				</div>
+				<div class="form-row">
+				  <div class="col-md-6 mb-3">
+					<label for="validationTooltip03">Ciudad</label>
+					<input type="text" class="form-control" id="validationTooltip03" required>
+					<div class="invalid-tooltip">
+					  Por favor inserte una ciudad válida.
+					</div>
+				  </div>
+				  <div class="col-md-3 mb-3">
+					<label for="validationTooltip04">Provincia</label>
+					<select class="custom-select" id="validationTooltip04" required>
+					  <option selected disabled value="">Seleccionar</option>
+					  <option>Córdoba</option>
+					  <option>Buenos Aires</option>
+					  <option>Santa Fe</option>
+					  <option>Catamarca</option>
+					  <option>Jujuy</option>
+					  <option>Chaco</option>
+					  <option>San Juan</option>
+					  <option>San Luis</option>
+					  <option>Santiago del Estero</option>
+					  <option>Tucumán</option>
+					  <option>La Rioja</option>
+					  <option>Tierra del Fuego</option>
+					  <option>Santa Cruz</option>
+					  <option>Mendoza</option>
+					  <option>Neuquén</option>
+					  <option>La Pampa</option>
+					  <option>Río Negro</option>
+					  <option>Misiones</option>
+					  <option>Chubut</option>
+					  <option>Corrientes</option>
+					  <option>Entre Ríos</option>
+					  <option>Salta</option>
+					  <option>Formosa</option>
+					</select>
+					<div class="invalid-tooltip">
+					  Por favor seleccione su provincia.
+					</div>
+				  </div>
+				  <div class="col-md-3 mb-3">
+					<label for="validationTooltip05">Código Postal</label>
+					<input type="text" class="form-control" id="validationTooltip05" required>
+					<div class="invalid-tooltip">
+					  No es válido.
+					</div>
+				  </div>
+				</div>
+				
+			  </form>
+		</div>
 		
-		<p> Lean detalladamente cada ítem antes de enviar, no se olviden de descargar la ficha al final de la página.</p>
+		<div class="container">
+			<p> Lean detalladamente cada ítem antes de enviar, no se olviden de descargar la ficha al final de la página.</p>
 
 		<form action="recibe.html" method="POST" enctype="multipart/form-data">
 			<p>Nombre y apellido completos:</p>
@@ -230,10 +301,13 @@
 				<label>No</label>
 			<p>Revisar todos los datos antes de enviar, recomendamos descargar la planilla para su conservación a futuro.</p>
 			<p>En caso de necesitar más de una planilla, enviar, descargar, y luego click en limpiar para rellenar una nueva planilla.</p>	
-				<input type="checkbox" name="LeiTodo">
-				<label id="checkBoxMedica">He leído toda la forma y he contestado de forma honesta en mi capacidad como practicante o responsable de un practicante.</label> <!-- La fuente no se cambia, averiguar cómo.-->
-				<br>
-				<br>
+			
+			<div class="custom-control custom-checkbox mb-3">
+				<input type="checkbox" class="custom-control-input" id="customControlValidation2" required>
+				<label class="custom-control-label" for="customControlValidation2">Doy fe que mis datos son correctos.</label>
+				<div class="invalid-feedback">Es obligatorio.</div>
+			</div>
+				
 				
 
 				<div class="container">	
@@ -290,6 +364,9 @@
 	
 	</div>
 
+		</div>
+		
+		
 	<br>
 	
 	<div class="footerContactos">
