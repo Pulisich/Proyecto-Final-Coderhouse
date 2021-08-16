@@ -62,154 +62,232 @@
 			<div>
 				<button class="iconoFacebook"><a href="https://www.facebook.com/C%C3%B3rdoba-TaekwonDo-ITF-1788817928052486" target="blank" class="iconoFacebook"><i class="fa fa-facebook"></i></a></button>
 			</div>
-
-			<div class="container">
-	
-				<h1 class="nosotros"> Contacto. </h1>
-	
-				<p>¡Hola!</p>
-				
-				<p>Dejá tus datos y tu consulta y te responderemos a la brevedad</p>
-					
+			
 		
-		
+							
+				</form>
 			</div>
 		
-			<div class="container-fluid">			
-				
-				<form action="recibe.htm" method="POST" enctype="multipart/form-data" class="formContacto"> 
-				
-					<p>Nombre y apellido:</p>
-							<input type="text" name="Nombre"> 
-					<br>
-				
-					<p>Dirección e-mail:</p>
-							<input type="email" name="E-mail">
-				
-					<br>
-				
-					<p> Asunto:</p>
-							<select name="Asunto">
-								<option value="contrasenia">Contraseña</option>
-								<option value="horarios">Horarios.</option>
-								<option value="equipo">Equipo.</option>
-								<option value="ubicaciones">Ubicaciones.</option>
-								<option value="tarifas">Tarifas.</option>
-								<option value="otros">Otros.</option>
-							</select>
-					<br>
-				
-					<p>Consulta:</p>
-							<textarea name="mensaje"></textarea>
-					<br>
-					
-					
-					<div class="container contenedorBoton">	
-						
-						<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal2">
-								
-							LIMPIAR  
-						
-						</button>	
+	</div>
 
-						<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-									
-							<div class="modal-dialog">
+	<div class="container">
+		
+		<div>
+			
+			<h1 class="nosotros"> 
+				CONTACTO
+			</h1>
+			
+			<p> 
+				Dejá tus datos  y tu consulta y te responderemos a la brevedad.
+			</p>
+		
+		</div>
+		
+		<form class="needs-validation" novalidate>
+			
+			<div class="form-row">
+			  
+				<div class="col-md-6 mb-3">
+			
+					<label for="validationTooltip01">
+						Nombre
+					</label>
+				
+					<input type="text" class="form-control" id="validationTooltip01" value="Nombre" required>
+				
+					<div class="valid-tooltip">
+				
+						Bien
+				
+					</div>
+			  
+				</div>
+			 
+				<div class="col-md-6 mb-3">
+				
+					<label for="validationTooltip02">
+						Apellido
+					</label>
+				
+					<input type="text" class="form-control" id="validationTooltip02" value="Apellido" required>
+				
+					<div class="valid-tooltip">
+				 
+						Bien
+				
+					</div>
+			  
+				</div>
+			
+			</div>
+
+			<div class="form-row">
+			  
+				<div class="col-md-6 mb-3">
+				
+					<label for="validationTooltip03">
+						E-mail
+					</label>
+				
+					<input type="text" class="form-control" id="validationTooltip03" required>
+				
+					<div class="invalid-tooltip">
+				
+						Por favor introduzca su correo electrónico.
+				
+					</div>
+			 
+				</div>
+			  
+				<div class="col-md-3 mb-3">
+				
+					<label for="validationTooltip04">
+						Asunto
+					</label>
+					
+					<select class="custom-select" id="validationTooltip04" required>
+					
+						<option selected disabled value="">Seleccione:</option>
+					
+						<option value="contrasenia">Contraseña</option>
+					
+						<option value="horarios">Horarios.</option>
+					
+						<option value="equipo">Equipo.</option>
+					
+						<option value="ubicaciones">Ubicaciones.</option>
+					
+						<option value="tarifas">Tarifas.</option>
+					
+						<option value="otros">Otros.</option>
+					
+					</select>
+
+					
+					<div class="invalid-tooltip">
+					
+						Un asunto es necesario.
+					
+					</div>
+			
+			 	</div>
+				
+			  
+			</div>
+
+		</form>
+
+		<div class="mb-3">
+			
+			<label for="validationTextarea">
+				Consulta
+			</label>
+
+			<textarea class="form-control is-invalid" id="validationTextarea" placeholder="Escriba su consulta" required></textarea>
+			
+			<div class="invalid-feedback">
+			  Escriba su consulta.
+			</div>
+		 
+		</div>
+
+		<div class="container">	
+						
+
 							
-								<div class="modal-content">
+			<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal2">
+					LIMPIAR  </button>	
+
+					<div class="modal fade" id="exampleModal2" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+						
+						<div class="modal-dialog">
+						
+							<div class="modal-content">
+						
+								<div class="modal-header">
+						
+									<h5 class="modal-title" id="exampleModalLabel2">Ooops...Algo salió mal</h5>
+						
+									<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+						
+										<span aria-hidden="true">&times;</span>
+						
+									</button>
+						
+								</div>
+
 							
-									<div class="modal-header">
-										<h5 class="modal-title" id="exampleModalLabel2">
-											Ooops...Algo salió mal
-										</h5>
-										
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-										
-											<span aria-hidden="true">&times;</span>
-										
-										</button>
-									
-									</div>
-									
-									<div class="modal-body">
-									
-										Por el momento ese botón no funciona, vas a tener que borrar a mano.
-									
-									</div>
-										
-									<div class="modal-footer">
-										
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">
-											
-											CERRAR
-										
-										</button>
-										
-									</div>
-								
+								<div class="modal-body">
+							
+									Por el momento ese botón no funciona, vas a tener que borrar a mano.
+							
 								</div>
 							
+								<div class="modal-footer">
+							
+									<button type="button" class="btn btn-secondary" data-dismiss="modal">CERRAR</button>
+							
+							
+								</div>
+						
+							</div>
+						</div>
+
+					</div>		
+					
+			<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal">
+			
+				ENVIAR  
+			
+			</button>
+			
+			
+			<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+				
+				<div class="modal-dialog">
+				
+					<div class="modal-content">
+				
+							<div class="modal-header">
+					
+								<h5 class="modal-title" id="exampleModalLabel">¡Recibido!</h5>
+					
+								<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					
+									<span aria-hidden="true">&times;</span>
+					
+								</button>
+					
+							</div>
+					
+							<div class="modal-body">
+					
+								Gracias por su consulta, en breve le contestaremos.
+					
 							</div>
 
-						</div>		
-							
+						<div class="modal-footer">
 						
-						<button type="button" class="btn btn-primary botonComun" data-toggle="modal" data-target="#exampleModal">
-							
-							ENVIAR  
-						
-						</button>
-						
-						
-						<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-							<div class="modal-dialog">
+							<button type="button" class="btn btn-secondary" data-dismiss="modal">
 								
-								<div class="modal-content">
-									
-									<div class="modal-header">
-									
-										<h5 class="modal-title" id="exampleModalLabel">
-											
-											¡Recibido!
-										
-										</h5>
-									
-										<button type="button" class="close" data-dismiss="modal" aria-label="Close">
-											
-											<span aria-hidden="true">&times;</span>
-										
-										</button>
-									
-									</div>
-									
-									<div class="modal-body">
-									
-										Gracias por su consulta, en breve le contestaremos.
-									
-									</div>
-								
-									<div class="modal-footer">
-									
-										<button type="button" class="btn btn-secondary" data-dismiss="modal">
-											
-											CERRAR
-											
-										</button>
-									
-									</div>
-								
-								</div>
+								CERRAR
 							
-							</div>
+							</button>
 						
 						</div>
 					
 					</div>
+
+				</div>
+
 			</div>
-							
+
+		</div>
+	</div>
 			
-
-
+		 
+	</div>
 
 	<div class="footerContactos">
 		
