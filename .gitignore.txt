@@ -1,8 +1,0 @@
-node_modules
-bootstrap-4.5.3-dist
-package-lock.json
-package.json
-escuela.html
-landing.html
-itf.html
-cuartaEntrega-Pulisich.rar
